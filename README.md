@@ -1,2 +1,2 @@
 # bash-files
-Tool to automate nmap combined with hydra. Please note tht it only allows a single port to be targeted
+Bash files to perform automated tasks on various linux machines
