@@ -61,7 +61,7 @@ else
 	nmap -p$port -iL livehosts-$dt -oG portstats.txt >> /dev/null 
 fi
 cat portstats.txt | grep $port/open | cut -d " " -f2 > open-hosts-$dt
-rm -f portstats-$dt
+rm -f portstats.txt
 us=""
 pass=""
 user()
