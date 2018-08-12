@@ -12,7 +12,7 @@ fi
 	sleep 5
 	echo "Copying Packages....."
 	mkdir /repofiles
-	cp -rf /mnt/centos/Packages/a* /repofiles
+	cp -rf /mnt/centos/Packages/* /repofiles
 	 	
 echo "Building Package database....."
 createrepo -d /repofiles
